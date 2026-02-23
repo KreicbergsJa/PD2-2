@@ -12,5 +12,5 @@ partitions = [
 "Recovery;/recovery;2000;98"
 ]
 
-result = partitions.partition
+result = partitions.partition("/")
 print(result)
