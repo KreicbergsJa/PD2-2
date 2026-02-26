@@ -12,5 +12,7 @@ partitions = [
 "Recovery;/recovery;2000;98"
 ]
 
-result = partitions.partition("/")
-print(result)
+for partition in partitions:
+    parts = partition.split(';')
+    aaa = parts[0]
+    print(aaa)bbbbbbbbbbbbb
