@@ -15,4 +15,4 @@ partitions = [
 for partition in partitions:
     parts = partition.split(';')
     aaa = parts[0]
-    print(aaa)bbbbbbbbbbbbb
+    print(aaa)
